@@ -45,9 +45,9 @@ public class CoinMachine {
     public void getMoney(int i) {
         int takeFrom50 = i / 50;
         int takeFrom20 = i % 50;
-        if (!(i / 50 == 0)) {
+        if (i / 50 != 0) {
             numberOf50 -= takeFrom50;
-            if (!(i / 20 == 0)) {
+            if (i / 20 != 0) {
                 numberOf20 -= takeFrom20 / 20;
             }
         }
