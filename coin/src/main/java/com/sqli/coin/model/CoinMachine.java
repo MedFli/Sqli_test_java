@@ -50,8 +50,6 @@ public class CoinMachine {
             if (!(i / 20 == 0)) {
                 numberOf20 -= takeFrom20 / 20;
             }
-            log.info("no more 20 coins in the machine ");
         }
-        log.info("no 50 coins in the machine");
     }
 }
